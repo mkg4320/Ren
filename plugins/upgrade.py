@@ -5,24 +5,24 @@ from pyrogram import Client , filters
 async def upgrade(bot,update):
 	text = """**Free Plan User**
 	Daily  Upload limit 2GB
-	Price 0
+	Price 0 Free 🐍
 	
 	**VIP 1 ** 
 	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
+	Price Rs 100  🇮🇳/🌎 1.5$  Unlocks 🔓 Lifetime 
 	
 	**VIP 2 **
 	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
+	Price Rs 200  🇮🇳/🌎 4$  Unlocks 🔓 Lifetime 
 	
-	Pay Using Upi I'd ```divindass@fbl```
+	Pay Using Upi I'd ```Conatact Dev @Aay700```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/webx_admin_bot")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/webx_admin_bot"),
-        			InlineKeyboardButton("UPI ",url = "https://t.me/webx_admin_bot")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Aay700")], 
+        			[InlineKeyboardButton("Movies World🌎",url = "https://t.me/blackest_harbour"),
+        			InlineKeyboardButton("Series 🍿 ",url = "https://t.me/z_harbour_files")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -30,23 +30,23 @@ async def upgrade(bot,update):
 async def upgradecm(bot,message):
 	text = """**Free Plan User**
 	Daily  Upload limit 2GB
-	Price 0
+	Price 0 Free 
 	
 	**VIP 1 ** 
 	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
+	Price Rs 100  🇮🇳/🌎 Unlocks 🔓 Lifetime
 	
 	**VIP 2 **
 	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
+	Price Rs 200  🇮🇳/🌎 No Service Validity 😜
 	
 	
-	Pay Using Upi I'd ```divindass@fbl```
+	Pay Using Upi I'd ```Contact Dev @sigma_male_007```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/webx_admin_bot")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/webx_admin_bot"),
-        			InlineKeyboardButton("Paytm",url = "https://t.me/webx_admin_bot")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Aay700")], 
+        			[InlineKeyboardButton("Movies 🌎",url = "https://t.me/blackest_harbour"),
+        			InlineKeyboardButton("Series",url = "https://t.me/z_harbour_files")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
